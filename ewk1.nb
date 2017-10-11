@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     87920,       2191]
-NotebookOptionsPosition[     84019,       2052]
-NotebookOutlinePosition[     84356,       2067]
-CellTagsIndexPosition[     84313,       2064]
+NotebookDataLength[     90246,       2264]
+NotebookOptionsPosition[     86004,       2113]
+NotebookOutlinePosition[     86341,       2128]
+CellTagsIndexPosition[     86298,       2125]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1985,7 +1985,23 @@ Cell[BoxData[
          RowBox[{"[", "8", "]"}], "]"}], ",", " ", 
         RowBox[{"k", "+", "7"}]}], "]"}], " ", "==", " ", 
       RowBox[{"cyfrag", "[", 
-       RowBox[{"[", "8", "]"}], "]"}]}]}], "\n", "    ", ",", " ", 
+       RowBox[{"[", "8", "]"}], "]"}]}], "\[IndentingNewLine]", "&&", 
+     RowBox[{
+      RowBox[{"Enigma1", "[", 
+       RowBox[{
+        RowBox[{"plain", "[", 
+         RowBox[{"[", "2", "]"}], "]"}], ",", " ", 
+        RowBox[{"k", "+", "1"}]}], "]"}], " ", "==", " ", 
+      RowBox[{"cyfrag", "[", 
+       RowBox[{"[", "2", "]"}], "]"}]}], "&&", 
+     RowBox[{
+      RowBox[{"Enigma1", "[", 
+       RowBox[{
+        RowBox[{"plain", "[", 
+         RowBox[{"[", "3", "]"}], "]"}], ",", " ", 
+        RowBox[{"k", "+", "2"}]}], "]"}], " ", "==", " ", 
+      RowBox[{"cyfrag", "[", 
+       RowBox[{"[", "3", "]"}], "]"}]}]}], "\n", "    ", ",", " ", 
     RowBox[{"{", 
      RowBox[{"\"\<YES!!!\>\"", ",", "k"}], "}"}], "\n", "    ", ",", " ", 
     RowBox[{"{", "\"\<no\>\"", "}"}]}], " ", "]"}]}]], "Input",
@@ -1999,7 +2015,8 @@ Cell[BoxData[
    3.71663890779245*^9, 3.7166389098933163`*^9}, {3.716709459679772*^9, 
    3.7167094597670593`*^9}, {3.716709972433292*^9, 3.716710064853791*^9}, {
    3.7167101220700617`*^9, 3.7167101251728992`*^9}, {3.71671017584308*^9, 
-   3.7167101858939133`*^9}, 3.716710321096286*^9}],
+   3.7167101858939133`*^9}, 3.716710321096286*^9, {3.716710615999239*^9, 
+   3.716710667660617*^9}}],
 
 Cell[CellGroupData[{
 
@@ -2046,7 +2063,51 @@ Cell[BoxData[
   3.716637869578939*^9, {3.7166379167424307`*^9, 3.7166379340241327`*^9}, 
    3.7166380388578777`*^9, 3.7166381911221037`*^9, 3.716638253967966*^9, 
    3.716709421287261*^9, 3.716709466189451*^9, 3.7167101931349583`*^9, 
-   3.716710326208444*^9}]
+   3.716710326208444*^9, {3.716710671097623*^9, 3.7167106772312927`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"keyForCrib", " ", "=", " ", "19"}], 
+  "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.71671098833315*^9, 3.716711013540127*^9}}],
+
+Cell[BoxData["19"], "Output",
+ CellChangeTimes->{3.7167110163979607`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"keyForCtxt", " ", "=", " ", "14"}]], "Input",
+ CellChangeTimes->{{3.716711022229987*^9, 3.716711043496228*^9}}],
+
+Cell[BoxData["14"], "Output",
+ CellChangeTimes->{{3.71671103086903*^9, 3.716711044260413*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"EnigmaMachine", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "17", ",", "4", ",", "14", ",", "6", ",", "17", ",", "3", ",", "4", ",", 
+     "23", ",", "8", ",", "8", ",", "19", ",", "3", ",", "1", ",", "24", ",", 
+     "22", ",", "11", ",", "6", ",", "22", ",", "15"}], "}"}], ",", "14"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.716711093800481*^9, 3.716711120989859*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "18", ",", "15", ",", "3", ",", "7", ",", "22", ",", "1", ",", "3", ",", 
+   "4", ",", "23", ",", "9", ",", "2", ",", "12", ",", "8", ",", "17", ",", 
+   "21", ",", "6", ",", "8", ",", "3", ",", "9"}], "}"}]], "Output",
+ CellChangeTimes->{3.71671112383176*^9}]
 }, Open  ]]
 }, Open  ]]
 },
@@ -2187,10 +2248,22 @@ Cell[CellGroupData[{
 Cell[79855, 1945, 322, 7, 30, "Input"],
 Cell[80180, 1954, 283, 7, 30, "Output"]
 }, Open  ]],
-Cell[80478, 1964, 1711, 37, 88, "Input"],
+Cell[80478, 1964, 2346, 54, 107, "Input"],
 Cell[CellGroupData[{
-Cell[82214, 2005, 306, 7, 30, "Input"],
-Cell[82523, 2014, 1468, 34, 50, "Output"]
+Cell[82849, 2022, 306, 7, 30, "Input"],
+Cell[83158, 2031, 1516, 34, 50, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[84711, 2070, 173, 4, 50, "Input"],
+Cell[84887, 2076, 73, 1, 30, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[84997, 2082, 135, 2, 30, "Input"],
+Cell[85135, 2086, 94, 1, 30, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[85266, 2092, 405, 9, 30, "Input"],
+Cell[85674, 2103, 302, 6, 30, "Output"]
 }, Open  ]]
 }, Open  ]]
 }
