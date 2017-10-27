@@ -1,0 +1,70 @@
+Running on 1 threads
+halfpi_series time = 0.820120 seconds 
+monte time = 35.531774 seconds 
+Total time = 36.501967 seconds 
+Pi/2 = 1.570796 
+Pi = 3.141593 
+Area of Mandelbrot set = 1.504237 +/- 1.504237 
+Running on 2 threads
+halfpi_series time = 0.820092 seconds 
+monte time = 17.785614 seconds 
+Total time = 18.694455 seconds 
+Pi/2 = 1.570796 
+Pi = 3.141593 
+Area of Mandelbrot set = 1.504237 +/- 1.504237 
+Running on 3 threads
+halfpi_series time = 0.819846 seconds 
+monte time = 11.786603 seconds 
+Total time = 12.607655 seconds 
+Pi/2 = 1.570796 
+Pi = 3.141593 
+Area of Mandelbrot set = 1.504237 +/- 1.504237 
+Running on 4 threads
+halfpi_series time = 0.819954 seconds 
+monte time = 9.137523 seconds 
+Total time = 9.972896 seconds 
+Pi/2 = 1.570796 
+Pi = 3.141593 
+Area of Mandelbrot set = 1.504237 +/- 1.504237 
+Running on 6 threads
+halfpi_series time = 0.819995 seconds 
+monte time = 7.399743 seconds 
+Total time = 8.233125 seconds 
+Pi/2 = 1.570796 
+Pi = 3.141593 
+Area of Mandelbrot set = 1.504237 +/- 1.504237 
+Running on 8 threads
+halfpi_series time = 0.820062 seconds 
+monte time = 4.445156 seconds 
+Total time = 5.324814 seconds 
+Pi/2 = 1.570796 
+Pi = 3.141593 
+Area of Mandelbrot set = 1.504237 +/- 1.504237 
+Running on 12 threads
+halfpi_series time = 0.819931 seconds 
+monte time = 3.633166 seconds 
+Total time = 4.457186 seconds 
+Pi/2 = 1.570796 
+Pi = 3.141593 
+Area of Mandelbrot set = 1.504237 +/- 1.504237 
+Running on 24 threads
+halfpi_series time = 0.820014 seconds 
+monte time = 1.521698 seconds 
+Total time = 2.435878 seconds 
+Pi/2 = 1.570796 
+Pi = 3.141593 
+Area of Mandelbrot set = 1.504237 +/- 1.504237 
+Running on 30 threads
+halfpi_series time = 0.819994 seconds 
+monte time = 1.501078 seconds 
+Total time = 2.325132 seconds 
+Pi/2 = 1.570796 
+Pi = 3.141593 
+Area of Mandelbrot set = 1.504237 +/- 1.504237 
+Running on 36 threads
+halfpi_series time = 0.820057 seconds 
+monte time = 1.234341 seconds 
+Total time = 2.151162 seconds 
+Pi/2 = 1.570796 
+Pi = 3.141593 
+Area of Mandelbrot set = 1.504237 +/- 1.504237 

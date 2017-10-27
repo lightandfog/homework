@@ -1,0 +1,20 @@
+Running on 1 threads
+/geadmin/ge2011.11/default/spool/mcore48/job_scripts/35494: line 21: ./goldbach_par2: Permission denied
+Running on 2 threads
+/geadmin/ge2011.11/default/spool/mcore48/job_scripts/35494: line 21: ./goldbach_par2: Permission denied
+Running on 3 threads
+/geadmin/ge2011.11/default/spool/mcore48/job_scripts/35494: line 21: ./goldbach_par2: Permission denied
+Running on 4 threads
+/geadmin/ge2011.11/default/spool/mcore48/job_scripts/35494: line 21: ./goldbach_par2: Permission denied
+Running on 6 threads
+/geadmin/ge2011.11/default/spool/mcore48/job_scripts/35494: line 21: ./goldbach_par2: Permission denied
+Running on 8 threads
+/geadmin/ge2011.11/default/spool/mcore48/job_scripts/35494: line 21: ./goldbach_par2: Permission denied
+Running on 12 threads
+/geadmin/ge2011.11/default/spool/mcore48/job_scripts/35494: line 21: ./goldbach_par2: Permission denied
+Running on 24 threads
+/geadmin/ge2011.11/default/spool/mcore48/job_scripts/35494: line 21: ./goldbach_par2: Permission denied
+Running on 30 threads
+/geadmin/ge2011.11/default/spool/mcore48/job_scripts/35494: line 21: ./goldbach_par2: Permission denied
+Running on 36 threads
+/geadmin/ge2011.11/default/spool/mcore48/job_scripts/35494: line 21: ./goldbach_par2: Permission denied

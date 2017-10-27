@@ -1,0 +1,32 @@
+#!/bin/sh
+#
+# request Bourne shell as shell for job
+#$ -S /bin/sh
+#
+# use current working directory
+#$ -cwd
+#
+# join the output and error output in one file
+#$ -j y
+#
+# use the par environment for parallel jobs
+#$ -pe par 36
+#
+# set up affinity mask (defines cores on which to run threads)
+# default mask
+export GOMP_CPU_AFFINITY="0,1,2,3"
+
+# compact mask (4 cores on 1 proc)
+#export GOMP_CPU_AFFINITY="0,4,8,12"
+# scattered mask (1 core on each of 4 procs)
+#export GOMP_CPU_AFFINITY="0,1,2,3"
+
+#for n in `seq 1 10`
+#do
+for p in 4
+do
+export OMP_NUM_THREADS=$p
+echo Running on $p threads
+./sblas_parb
+done
+#done

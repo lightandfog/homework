@@ -1,0 +1,214 @@
+Running on 1 mpi processes
+Process 0 of 1 is alive
+--MASTER output
+--x[0] = 6.284000 
+--x[n-1] = 61445.284000 
+--vector add time = 0.364884 seconds 
+ 
+--Sum of x() = 1887792168.959171 
+--sum time = 0.250131 
+ 
+--matrix update time = 0.208939 seconds 
+ 
+--y[0] = 6.284000 
+--y[m-1] = 264849.408000 
+--trimv time = 0.308722 seconds 
+ 
+--Total time = 3.048486 seconds 
+ 
+--End MASTER output
+myid=0
+vector add time = 0.364884 seconds 
+ 
+Running on 2 mpi processes
+Process 0 of 2 is alive
+Process 1 of 2 is alive
+myid=1
+vector add time = 0.180805 seconds 
+ 
+--MASTER output
+--x[0] = 6.284000 
+--x[n-1] = 61445.284000 
+--vector add time = 0.190211 seconds 
+ 
+--Sum of x() = 1887792168.960503 
+--sum time = 0.343814 
+ 
+--matrix update time = 0.224285 seconds 
+ 
+--y[0] = 6.284000 
+--y[m-1] = 264849.408000 
+--trimv time = 0.313710 seconds 
+ 
+--Total time = 3.425941 seconds 
+ 
+--End MASTER output
+myid=0
+vector add time = 0.190211 seconds 
+ 
+Running on 4 mpi processes
+Process 1 of 4 is alive
+Process 2 of 4 is alive
+Process 3 of 4 is alive
+Process 0 of 4 is alive
+--MASTER output
+--x[0] = 6.284000 
+--x[n-1] = 61445.284000 
+--vector add time = 0.091592 seconds 
+ 
+--Sum of x() = 1887792168.959654 
+--sum time = 0.331492 
+ 
+--matrix update time = 0.210453 seconds 
+ 
+--y[0] = 6.284000 
+--y[m-1] = 264849.408000 
+--trimv time = 0.306496 seconds 
+ 
+--Total time = 3.593515 seconds 
+ 
+--End MASTER output
+myid=0
+vector add time = 0.091592 seconds 
+ 
+myid=3
+vector add time = 0.080120 seconds 
+ 
+myid=1
+vector add time = 0.083690 seconds 
+ 
+myid=2
+vector add time = 0.082183 seconds 
+ 
+Running on 8 mpi processes
+Process 0 of 8 is alive
+Process 1 of 8 is alive
+Process 2 of 8 is alive
+Process 3 of 8 is alive
+Process 4 of 8 is alive
+Process 5 of 8 is alive
+Process 6 of 8 is alive
+Process 7 of 8 is alive
+myid=7
+vector add time = 0.040494 seconds 
+ 
+--MASTER output
+--x[0] = 6.284000 
+--x[n-1] = 61445.284000 
+--vector add time = 0.043897 seconds 
+ 
+--Sum of x() = 1887792168.960156 
+--sum time = 0.244948 
+ 
+--matrix update time = 0.223195 seconds 
+ 
+--y[0] = 6.284000 
+--y[m-1] = 264849.408000 
+--trimv time = 0.330952 seconds 
+ 
+--Total time = 3.675926 seconds 
+ 
+--End MASTER output
+myid=0
+vector add time = 0.043897 seconds 
+ 
+myid=1
+vector add time = 0.041583 seconds 
+ 
+myid=2
+vector add time = 0.041388 seconds 
+ 
+myid=3
+vector add time = 0.042363 seconds 
+ 
+myid=4
+vector add time = 0.041392 seconds 
+ 
+myid=5
+vector add time = 0.041978 seconds 
+ 
+myid=6
+vector add time = 0.041575 seconds 
+ 
+Running on 16 mpi processes
+Process 9 of 16 is alive
+Process 0 of 16 is alive
+Process 1 of 16 is alive
+Process 3 of 16 is alive
+Process 6 of 16 is alive
+Process 7 of 16 is alive
+Process 2 of 16 is alive
+Process 4 of 16 is alive
+Process 5 of 16 is alive
+Process 8 of 16 is alive
+Process 10 of 16 is alive
+Process 14 of 16 is alive
+Process 11 of 16 is alive
+Process 12 of 16 is alive
+Process 13 of 16 is alive
+Process 15 of 16 is alive
+--MASTER output
+--x[0] = 6.284000 
+--x[n-1] = 61445.284000 
+--vector add time = 0.021296 seconds 
+ 
+--Sum of x() = 1887792168.959906 
+--sum time = 0.227696 
+ 
+--matrix update time = 0.227963 seconds 
+ 
+--y[0] = 6.284000 
+--y[m-1] = 264849.408000 
+--trimv time = 0.329203 seconds 
+ 
+--Total time = 3.942257 seconds 
+ 
+--End MASTER output
+myid=0
+vector add time = 0.021296 seconds 
+ 
+myid=1
+vector add time = 0.020870 seconds 
+ 
+myid=2
+vector add time = 0.020319 seconds 
+ 
+myid=4
+vector add time = 0.020567 seconds 
+ 
+myid=3
+vector add time = 0.020599 seconds 
+ 
+myid=6
+vector add time = 0.020584 seconds 
+ 
+myid=5
+vector add time = 0.020617 seconds 
+ 
+myid=13
+vector add time = 0.020758 seconds 
+ 
+myid=9
+vector add time = 0.020239 seconds 
+ 
+myid=7
+vector add time = 0.020112 seconds 
+ 
+myid=8
+vector add time = 0.020327 seconds 
+ 
+myid=11
+vector add time = 0.020105 seconds 
+ 
+myid=12
+vector add time = 0.024486 seconds 
+ 
+myid=10
+vector add time = 0.020668 seconds 
+ 
+myid=14
+vector add time = 0.020631 seconds 
+ 
+myid=15
+vector add time = 0.019855 seconds 
+ 

@@ -1,0 +1,90 @@
+Running on 1 threads
+sign:0
+Result for func1 = 0.333333
+Time taken for func1 0.046126
+sign:0
+Result for func2 = 0.333333
+Time taken for func2 0.448030
+sign:0
+Result for func3 = 0.333333
+Time taken for func3 4.475405
+Running on 2 threads
+sign:0
+Result for func1 = 0.333333
+Time taken for func1 0.023638
+sign:0
+Result for func2 = 0.333333
+Time taken for func2 0.224568
+sign:0
+Result for func3 = 0.333333
+Time taken for func3 2.259416
+Running on 3 threads
+sign:0
+Result for func1 = 0.333333
+Time taken for func1 0.016016
+sign:0
+Result for func2 = 0.333333
+Time taken for func2 0.150764
+sign:0
+Result for func3 = 0.333333
+Time taken for func3 1.505582
+Running on 4 threads
+sign:0
+Result for func1 = 0.333333
+Time taken for func1 0.013219
+sign:0
+Result for func2 = 0.333333
+Time taken for func2 0.112678
+sign:0
+Result for func3 = 0.333333
+Time taken for func3 1.124177
+Running on 6 threads
+sign:0
+Result for func1 = 0.333333
+Time taken for func1 0.010146
+sign:0
+Result for func2 = 0.333333
+Time taken for func2 0.091017
+sign:0
+Result for func3 = 0.333333
+Time taken for func3 0.759123
+Running on 8 threads
+sign:0
+Result for func1 = 0.333333
+Time taken for func1 0.006959
+sign:0
+Result for func2 = 0.333333
+Time taken for func2 0.076147
+sign:0
+Result for func3 = 0.333333
+Time taken for func3 0.565909
+Running on 12 threads
+sign:0
+Result for func1 = 0.333333
+Time taken for func1 0.005200
+sign:0
+Result for func2 = 0.333333
+Time taken for func2 0.038937
+sign:0
+Result for func3 = 0.333333
+Time taken for func3 0.387383
+Running on 24 threads
+sign:0
+Result for func1 = 0.333333
+Time taken for func1 0.021665
+sign:0
+Result for func2 = 0.333333
+Time taken for func2 0.024574
+sign:0
+Result for func3 = 0.333333
+Time taken for func3 0.203787
+Running on 36 threads
+sign:0
+Result for func1 = 0.333333
+Time taken for func1 0.036265
+sign:0
+Result for func2 = 0.333333
+Time taken for func2 0.016067
+sign:0
+Result for func3 = 0.333333
+Time taken for func3 0.143202

@@ -1,0 +1,2 @@
+The parallel machine (mcore48) used in the laboratory exercises associated with this course is an example of a NUMA DSM distributed shared memory multiprocessor
+

@@ -1,0 +1,453 @@
+Running on 1 mpi processes
+Process 0 of 1 is alive
+MASTER output
+x[0] = 6.284000 
+Sum of x() = 1887792168.959171 
+matrix update time = 0.253029 seconds 
+ 
+y[0] = 6.284000 
+Total time = 2.965769 seconds 
+ 
+End MASTER output
+a[0] = 3.142000 myid=0 
+a[1] = 4.142000 myid=0 
+a[nx-1] = 61442.142000 myid=0 
+x[nx-1] = 61445.284000 myid=0 
+y[mx-1] = 264849.408000 myid=0 
+myid=0
+vector add time = 0.393702 seconds 
+ 
+sum time = 0.122684 
+ 
+trimv time = 0.417983 seconds 
+ 
+Running on 2 mpi processes
+Process 0 of 2 is alive
+Process 1 of 2 is alive
+MASTER output
+x[0] = 6.284000 
+Sum of x() = 1887792168.959735 
+matrix update time = 0.124162 seconds 
+ 
+y[0] = 6.284000 
+Total time = 2.148569 seconds 
+ 
+End MASTER output
+a[0] = 3.142000 myid=0 
+a[1] = 4.142000 myid=0 
+a[nx-1] = 30722.142000 myid=0 
+x[nx-1] = 30725.284000 myid=0 
+y[mx-1] = 263821.124000 myid=0 
+myid=0
+vector add time = 0.241002 seconds 
+ 
+sum time = 0.067654 
+ 
+trimv time = 0.204714 seconds 
+ 
+a[0] = 3.142000 myid=1 
+a[1] = 4.142000 myid=1 
+a[nx-1] = 30722.142000 myid=1 
+x[nx-1] = 61445.284000 myid=1 
+y[mx-1] = 264849.408000 myid=1 
+myid=1
+vector add time = 0.240181 seconds 
+ 
+sum time = 0.067325 
+ 
+trimv time = 0.200384 seconds 
+ 
+Running on 4 mpi processes
+Process 1 of 4 is alive
+Process 2 of 4 is alive
+Process 3 of 4 is alive
+Process 0 of 4 is alive
+MASTER output
+x[0] = 6.284000 
+Sum of x() = 1887792168.960015 
+matrix update time = 0.041527 seconds 
+ 
+y[0] = 6.284000 
+Total time = 1.851962 seconds 
+ 
+End MASTER output
+a[0] = 3.142000 myid=0 
+a[1] = 4.142000 myid=0 
+a[nx-1] = 15362.142000 myid=0 
+x[nx-1] = 15365.284000 myid=0 
+y[mx-1] = 261770.556000 myid=0 
+myid=0
+vector add time = 0.079425 seconds 
+ 
+sum time = 0.028504 
+ 
+trimv time = 0.083058 seconds 
+ 
+a[0] = 3.142000 myid=3 
+a[1] = 4.142000 myid=3 
+a[nx-1] = 15362.142000 myid=3 
+x[nx-1] = 61445.284000 myid=3 
+y[mx-1] = 264849.408000 myid=3 
+myid=3
+vector add time = 0.070328 seconds 
+ 
+sum time = 0.028240 
+ 
+trimv time = 0.071309 seconds 
+ 
+a[0] = 3.142000 myid=1 
+a[1] = 4.142000 myid=1 
+a[nx-1] = 15362.142000 myid=1 
+x[nx-1] = 30725.284000 myid=1 
+y[mx-1] = 262794.840000 myid=1 
+myid=1
+vector add time = 0.070410 seconds 
+ 
+sum time = 0.028354 
+ 
+trimv time = 0.072747 seconds 
+ 
+a[0] = 3.142000 myid=2 
+a[1] = 4.142000 myid=2 
+a[nx-1] = 15362.142000 myid=2 
+x[nx-1] = 46085.284000 myid=2 
+y[mx-1] = 263821.124000 myid=2 
+myid=2
+vector add time = 0.070338 seconds 
+ 
+sum time = 0.028288 
+ 
+trimv time = 0.072270 seconds 
+ 
+Running on 8 mpi processes
+Process 2 of 8 is alive
+Process 3 of 8 is alive
+Process 4 of 8 is alive
+Process 5 of 8 is alive
+Process 6 of 8 is alive
+Process 7 of 8 is alive
+Process 0 of 8 is alive
+Process 1 of 8 is alive
+a[0] = 3.142000 myid=1 
+a[1] = 4.142000 myid=1 
+a[nx-1] = 7682.142000 myid=1 
+x[nx-1] = 15365.284000 myid=1 
+y[mx-1] = 258709.704000 myid=1 
+myid=1
+vector add time = 0.034817 seconds 
+ 
+sum time = 0.014209 
+ 
+trimv time = 0.038114 seconds 
+ 
+MASTER output
+x[0] = 6.284000 
+Sum of x() = 1887792168.959962 
+matrix update time = 0.024011 seconds 
+ 
+y[0] = 6.284000 
+Total time = 1.837510 seconds 
+ 
+End MASTER output
+a[0] = 3.142000 myid=0 
+a[1] = 4.142000 myid=0 
+a[nx-1] = 7682.142000 myid=0 
+x[nx-1] = 7685.284000 myid=0 
+y[mx-1] = 257693.420000 myid=0 
+myid=0
+vector add time = 0.042856 seconds 
+ 
+sum time = 0.023215 
+ 
+trimv time = 0.052600 seconds 
+ 
+a[0] = 3.142000 myid=2 
+a[1] = 4.142000 myid=2 
+a[nx-1] = 7682.142000 myid=2 
+x[nx-1] = 23045.284000 myid=2 
+y[mx-1] = 259727.988000 myid=2 
+myid=2
+vector add time = 0.035027 seconds 
+ 
+sum time = 0.014259 
+ 
+trimv time = 0.040630 seconds 
+ 
+a[0] = 3.142000 myid=3 
+a[1] = 4.142000 myid=3 
+a[nx-1] = 7682.142000 myid=3 
+x[nx-1] = 30725.284000 myid=3 
+y[mx-1] = 260748.272000 myid=3 
+myid=3
+vector add time = 0.035106 seconds 
+ 
+sum time = 0.014212 
+ 
+trimv time = 0.035560 seconds 
+ 
+a[0] = 3.142000 myid=4 
+a[1] = 4.142000 myid=4 
+a[nx-1] = 7682.142000 myid=4 
+x[nx-1] = 38405.284000 myid=4 
+y[mx-1] = 261770.556000 myid=4 
+myid=4
+vector add time = 0.036622 seconds 
+ 
+sum time = 0.014437 
+ 
+trimv time = 0.042441 seconds 
+ 
+a[0] = 3.142000 myid=5 
+a[1] = 4.142000 myid=5 
+a[nx-1] = 7682.142000 myid=5 
+x[nx-1] = 46085.284000 myid=5 
+y[mx-1] = 262794.840000 myid=5 
+myid=5
+vector add time = 0.035154 seconds 
+ 
+sum time = 0.014338 
+ 
+trimv time = 0.035995 seconds 
+ 
+a[0] = 3.142000 myid=6 
+a[1] = 4.142000 myid=6 
+a[nx-1] = 7682.142000 myid=6 
+x[nx-1] = 53765.284000 myid=6 
+y[mx-1] = 263821.124000 myid=6 
+myid=6
+vector add time = 0.035049 seconds 
+ 
+sum time = 0.014254 
+ 
+trimv time = 0.037664 seconds 
+ 
+a[0] = 3.142000 myid=7 
+a[1] = 4.142000 myid=7 
+a[nx-1] = 7682.142000 myid=7 
+x[nx-1] = 61445.284000 myid=7 
+y[mx-1] = 264849.408000 myid=7 
+myid=7
+vector add time = 0.035066 seconds 
+ 
+sum time = 0.014164 
+ 
+trimv time = 0.036788 seconds 
+ 
+Running on 16 mpi processes
+Process 0 of 16 is alive
+Process 1 of 16 is alive
+Process 2 of 16 is alive
+Process 3 of 16 is alive
+Process 4 of 16 is alive
+Process 5 of 16 is alive
+Process 6 of 16 is alive
+Process 9 of 16 is alive
+Process 7 of 16 is alive
+Process 8 of 16 is alive
+Process 10 of 16 is alive
+Process 11 of 16 is alive
+Process 14 of 16 is alive
+Process 15 of 16 is alive
+Process 12 of 16 is alive
+Process 13 of 16 is alive
+MASTER output
+x[0] = 6.284000 
+Sum of x() = 1887792168.960021 
+matrix update time = 0.009244 seconds 
+ 
+y[0] = 6.284000 
+Total time = 1.865490 seconds 
+ 
+End MASTER output
+a[0] = 3.142000 myid=0 
+a[1] = 4.142000 myid=0 
+a[nx-1] = 3842.142000 myid=0 
+x[nx-1] = 3845.284000 myid=0 
+y[mx-1] = 249635.148000 myid=0 
+myid=0
+vector add time = 0.017099 seconds 
+ 
+sum time = 0.007274 
+ 
+trimv time = 0.023731 seconds 
+ 
+a[0] = 3.142000 myid=1 
+a[1] = 4.142000 myid=1 
+a[nx-1] = 3842.142000 myid=1 
+x[nx-1] = 7685.284000 myid=1 
+y[mx-1] = 250635.432000 myid=1 
+myid=1
+vector add time = 0.016768 seconds 
+ 
+sum time = 0.007119 
+ 
+trimv time = 0.017821 seconds 
+ 
+a[0] = 3.142000 myid=2 
+a[1] = 4.142000 myid=2 
+a[nx-1] = 3842.142000 myid=2 
+x[nx-1] = 11525.284000 myid=2 
+y[mx-1] = 251637.716000 myid=2 
+myid=2
+vector add time = 0.016750 seconds 
+ 
+sum time = 0.007345 
+ 
+trimv time = 0.017705 seconds 
+ 
+a[0] = 3.142000 myid=3 
+a[1] = 4.142000 myid=3 
+a[nx-1] = 3842.142000 myid=3 
+x[nx-1] = 15365.284000 myid=3 
+y[mx-1] = 252642.000000 myid=3 
+myid=3
+vector add time = 0.016626 seconds 
+ 
+sum time = 0.007135 
+ 
+trimv time = 0.017531 seconds 
+ 
+a[0] = 3.142000 myid=4 
+a[1] = 4.142000 myid=4 
+a[nx-1] = 3842.142000 myid=4 
+x[nx-1] = 19205.284000 myid=4 
+y[mx-1] = 253648.284000 myid=4 
+myid=4
+vector add time = 0.016934 seconds 
+ 
+sum time = 0.007155 
+ 
+trimv time = 0.020103 seconds 
+ 
+a[0] = 3.142000 myid=5 
+a[1] = 4.142000 myid=5 
+a[nx-1] = 3842.142000 myid=5 
+x[nx-1] = 23045.284000 myid=5 
+y[mx-1] = 254656.568000 myid=5 
+myid=5
+vector add time = 0.016519 seconds 
+ 
+sum time = 0.007137 
+ 
+trimv time = 0.017454 seconds 
+ 
+a[0] = 3.142000 myid=9 
+a[1] = 4.142000 myid=9 
+a[nx-1] = 3842.142000 myid=9 
+x[nx-1] = 38405.284000 myid=9 
+y[mx-1] = 258709.704000 myid=9 
+myid=9
+vector add time = 0.016385 seconds 
+ 
+sum time = 0.007127 
+ 
+trimv time = 0.018451 seconds 
+ 
+a[0] = 3.142000 myid=7 
+a[1] = 4.142000 myid=7 
+a[nx-1] = 3842.142000 myid=7 
+x[nx-1] = 30725.284000 myid=7 
+y[mx-1] = 256679.136000 myid=7 
+myid=7
+vector add time = 0.016383 seconds 
+ 
+sum time = 0.007147 
+ 
+trimv time = 0.018558 seconds 
+ 
+a[0] = 3.142000 myid=6 
+a[1] = 4.142000 myid=6 
+a[nx-1] = 3842.142000 myid=6 
+x[nx-1] = 26885.284000 myid=6 
+y[mx-1] = 255666.852000 myid=6 
+myid=6
+vector add time = 0.016405 seconds 
+ 
+sum time = 0.007125 
+ 
+trimv time = 0.017875 seconds 
+ 
+a[0] = 3.142000 myid=8 
+a[1] = 4.142000 myid=8 
+a[nx-1] = 3842.142000 myid=8 
+x[nx-1] = 34565.284000 myid=8 
+y[mx-1] = 257693.420000 myid=8 
+myid=8
+vector add time = 0.017484 seconds 
+ 
+sum time = 0.007308 
+ 
+trimv time = 0.019955 seconds 
+ 
+a[0] = 3.142000 myid=10 
+a[1] = 4.142000 myid=10 
+a[nx-1] = 3842.142000 myid=10 
+x[nx-1] = 42245.284000 myid=10 
+y[mx-1] = 259727.988000 myid=10 
+myid=10
+vector add time = 0.016420 seconds 
+ 
+sum time = 0.007122 
+ 
+trimv time = 0.018179 seconds 
+ 
+a[0] = 3.142000 myid=11 
+a[1] = 4.142000 myid=11 
+a[nx-1] = 3842.142000 myid=11 
+x[nx-1] = 46085.284000 myid=11 
+y[mx-1] = 260748.272000 myid=11 
+myid=11
+vector add time = 0.016335 seconds 
+ 
+sum time = 0.007175 
+ 
+trimv time = 0.019889 seconds 
+ 
+a[0] = 3.142000 myid=12 
+a[1] = 4.142000 myid=12 
+a[nx-1] = 3842.142000 myid=12 
+x[nx-1] = 49925.284000 myid=12 
+y[mx-1] = 261770.556000 myid=12 
+myid=12
+vector add time = 0.017095 seconds 
+ 
+sum time = 0.007204 
+ 
+trimv time = 0.020627 seconds 
+ 
+a[0] = 3.142000 myid=13 
+a[1] = 4.142000 myid=13 
+a[nx-1] = 3842.142000 myid=13 
+x[nx-1] = 53765.284000 myid=13 
+y[mx-1] = 262794.840000 myid=13 
+myid=13
+vector add time = 0.017198 seconds 
+ 
+sum time = 0.007130 
+ 
+trimv time = 0.018159 seconds 
+ 
+a[0] = 3.142000 myid=14 
+a[1] = 4.142000 myid=14 
+a[nx-1] = 3842.142000 myid=14 
+x[nx-1] = 57605.284000 myid=14 
+y[mx-1] = 263821.124000 myid=14 
+myid=14
+vector add time = 0.016348 seconds 
+ 
+sum time = 0.007119 
+ 
+trimv time = 0.018396 seconds 
+ 
+a[0] = 3.142000 myid=15 
+a[1] = 4.142000 myid=15 
+a[nx-1] = 3842.142000 myid=15 
+x[nx-1] = 61445.284000 myid=15 
+y[mx-1] = 264849.408000 myid=15 
+myid=15
+vector add time = 0.016341 seconds 
+ 
+sum time = 0.007120 
+ 
+trimv time = 0.018580 seconds 
+ 

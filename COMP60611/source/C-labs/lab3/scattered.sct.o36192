@@ -1,0 +1,18 @@
+Running on 4 threads
+vector update time = 0.407256 seconds 
+ 
+x[0] = 6.284000 
+x[n-1] = 6.284000 
+vector add time = 0.103581 seconds 
+ 
+Sum of x() = 386088.960000 
+sum time = 0.032574 
+ 
+matrix initialisation time = 1.086721 seconds 
+ 
+y[0][0] = 6.284000 
+y[m-1][0] = 2733.540000 
+trimv time = 2.114000 seconds 
+ 
+Total time = 3.744808 seconds 
+ 

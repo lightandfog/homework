@@ -1,0 +1,6 @@
+Result for func1 = 0.333333
+Time taken for func1 0.021200
+Result for func2 = 0.333333
+Time taken for func2 0.207422
+Result for func3 = 0.333333
+Time taken for func3 2.067494
