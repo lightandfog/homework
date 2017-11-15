@@ -1,0 +1,18 @@
+clear;
+load('../data/iris.mat');
+[PC,V] = pca1(X);
+PC1 = PC(:,1);
+PC2 = PC(:,2);
+PC3 = PC(:,3);
+PC4 = PC(:,4);
+mX = mean(X');
+U12 = [PC1,PC2];
+U23 = [PC2,PC3];
+U13 = [PC1,PC3];
+cX = X - repmat(mX',1,150);
+Z12 = U12'*cX;
+Z13 = U13'*cX;
+Z23 = U23'*cX;
+figure:scatter(Z12(1,:),Z12(2,:),10);
+figure:scatter(Z13(1,:),Z13(2,:),10);
+figure:scatter(Z23(1,:),Z23(2,:),10);
