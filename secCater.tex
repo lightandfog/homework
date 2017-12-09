@@ -1,0 +1,40 @@
+\documentclass{article}
+\usepackage{amsmath}
+%\numberwithin{equation}{section}
+\title{Secure Catering Paymeny Service}
+\author{Shen Kai 10157891}
+\begin{document}
+    \maketitle
+    \section{Essential components}
+To simplify, we extract serveral main operations and requirements. This part introduce the essential parts of the whole procedures.
+        \subsection*{Detailed assumptions about termials, server and cards}
+For \textbf{cards}, we assmue that each card stores one unique number which we call it \textbf{card number}. The card also have space to store \textbf{payment secret}. Each card carries  circuits which is able to take input and generate output after some specific computation inlcuding (3DES and hash) when attached to the terminal.
+        \newline
+For \textbf{terminals}, we assmue that each terminal store one \textbf{terminal number} and one \textbf{terminal secret number}(permanent) which is only know to the server, let's call it \textbf{TK}. Termianls can also do other complex operations.
+        \subsection*{Mutual authentication between the Catering server and the terminal and the session key generation}
+This operation happens the first time when one terminal try to communicate with the server in a period of time. After the terminal and the server are both authenticated,a \textbf{session key} which is vaild for a period of time will be generated to encrypt the communication between the server and the terminal. The session key is stored in the terminal with a specific lifetime. This terminal's key is also recorded in the server corresponding to its terminal number. 
+        \newline
+\textbf{Step 1}. First the termianl send a Mutual authentication and session key accquire request which includes its \textbf{terminal number}.
+        \newline
+\textbf{Step 2}. The server get the request and check if it is a legal terminal number. Then the server send back a challenge request which includes a nouce named nouceA.
+        \newline
+\textbf{Step 3}. The terminal get the nouce and send back a response package which includes \textbf{  terminal number $\parallel E_{TK}[nouceA \parallel nouceB]$}. 
+        \newline
+\textbf{Step 4}. The server decrypt the encrypted text according to the terminal secret number stored with the termianl number and check the nouceA. After that, the server send back a packcage which includes  $E_{TK}[nouceB \parallel  session key(SK) \parallel E_{SK}[terminal number \parallel session key lifetime )$. The server store the session key and its lifetime corresponding to the terminal number.  
+        \newline
+\textbf{Step 5}. The terminal encrypts the text and get the session key and its lifetime. After the previous communication.The terminal and the server authenticate each other.
+        \newline
+vulnerabilities: 
+        \subsection*{Securely authorisation}
+When the card needs to send authorisation to the server. the termianl send arequest to the server. Then the server return a nouce(random number). The terminal gives this nouce to the card. The card uses 3DES to encrypt the nouce with the payment secret and hash it, then return to the terminal with the card number. The terminal send the hash value and the card number to the server. The server does 3DES and hash to the payment secret corresponding to the card number and compare to the value that the terminal gives if the card number is legal. If the check is positive. Then it is a legal authorisation.
+    
+        \subsection*{establish a confidential channel between server and terminals}
+The termianl first check if it has a valid session key. If it does not have a valid session key. The terminal will do the operation \textbf{the mutual authentication between the Catering server and the terminal and the session key generation} and get the session key.Then we use the session key to guarantee the security of communication.
+        \newline
+To avoid replay attack. Every the termianl want to establish a conversation.  
+
+    \section{Procedure: Download payment secret}
+To communicate with server, the terminal needs a vaild session key. If there is no vaild session key recorded in the terminal or in the server for this termianl. Then the operation \textbf{Mutual authentication between the Catering server and the terminal and the session key generation} needs to be done first. If there is a vaild of this key is necessary, a check  
+    \section{Procedure: Authorised purchase}
+
+\end{document}
