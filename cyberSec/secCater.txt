@@ -1,0 +1,59 @@
+Secure Catering Paymeny Service
+Shen Kai 10157891
+December 6, 2017
+
+1
+
+Essential components
+
+To simplify, we extract serveral main operations and requirements. This part
+introduce the essential parts of the whole procedures.
+
+Detailed assumptions about termials, server and cards
+For cards, we assmue that each card stores one unique number which we call
+it card number. The card also have space to store payment secret. Each
+card carries circuits which is able to take input and generate output after some
+specific computation inlcuding (3DES and hash) when attached to the terminal.
+For terminals, we assmue that each terminal store one terminal number and
+one terminal secret number(permanent) which is only know to the server.
+Termianls can also do other complex operations.
+
+Mutual authentication between the Catering server and the
+terminal and the session key generation
+This operation happens the first time when one terminal try to communicate
+with the server in a period of time. After the terminal and the server are both
+authenticated,a session key which is vaild for a period of time will be generated
+to encrypt the communication between the server and the terminal. The session
+key is stored in the terminal with a specific lifetime. This terminal’s key is also
+recorded in the server corresponding to its terminal number.
+
+Securely athorisation
+When the card needs to send authorisation to the server, the termianl send a
+nounce (random number) to the card. The card uses 3DES to encrypt the nouce
+with the payment secret and then hash it. The card return this value to the
+terminal. The terminal send the hash value with the nouce to the server.
+
+1
+
+Confidential channel between server and terminals
+After the mutual authentication between the Catering server and the terminal
+and the session key generation, we use the session key to guarantee the security
+of communication.
+
+2
+
+Procedure: Download payment secret
+
+To communicate with server, the terminal needs a vaild session key. If there is
+no vaild session key recorded in the terminal or in the server for this termianl.
+Thenthe operation Mutual authentication between the Catering server
+and the terminal and the session key generation needs to be done first.
+If there is a vaild of this key is necessary, a check
+
+3
+
+Procedure: Authorised purchase
+
+2
+
+
